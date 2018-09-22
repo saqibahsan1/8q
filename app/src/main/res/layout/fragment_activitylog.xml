@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.q8safemobile.views.TextViewCustomFont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Activity Log"
+                android:textColor="@color/TextColorBlack"
+                android:textSize="18sp"
+                android:visibility="visible"
+                app:fontName="Montserrat-Bold.otf" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/divider2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/tick" />
+                    </LinearLayout>
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.18"
+                        android:gravity="left"
+                        android:text="8 URLs Scanned"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.26"
+                        android:gravity="center"
+                        android:text="11/5/2018"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.26"
+                        android:gravity="center"
+                        android:text="11:03 am"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/divider2"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/tick" />
+                    </LinearLayout>
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.18"
+                        android:gravity="left"
+                        android:text="15 Files Scanned"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.26"
+                        android:gravity="center"
+                        android:text="12/5/2018"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.26"
+                        android:gravity="center"
+                        android:text="11:03 am"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/divider2"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/warning" />
+                    </LinearLayout>
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.18"
+                        android:gravity="left"
+                        android:text="Scan Failed"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.26"
+                        android:gravity="center"
+                        android:text="13/5/2018"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.26"
+                        android:gravity="center"
+                        android:text="11:03 am"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/divider2"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/warning" />
+                    </LinearLayout>
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.18"
+                        android:gravity="left"
+                        android:text="Virus Definition Update Failed"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.26"
+                        android:gravity="center"
+                        android:text="14/5/2018"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.26"
+                        android:gravity="center"
+                        android:text="11:03 am"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/divider2"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/tick" />
+                    </LinearLayout>
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.18"
+                        android:gravity="left"
+                        android:text="SMS Scanned"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.26"
+                        android:gravity="center"
+                        android:text="15/5/2018"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.26"
+                        android:gravity="center"
+                        android:text="11:03 am"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/divider2"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/tick" />
+                    </LinearLayout>
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.18"
+                        android:gravity="left"
+                        android:text="Virus Definition Up To Date"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.26"
+                        android:gravity="center"
+                        android:text="16/5/2018"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.26"
+                        android:gravity="center"
+                        android:text="11:03 am"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/divider2"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/tick" />
+                    </LinearLayout>
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.18"
+                        android:gravity="left"
+                        android:text="Virus Definition Updated"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.26"
+                        android:gravity="center"
+                        android:text="17/5/2018"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.26"
+                        android:gravity="center"
+                        android:text="11:03 am"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/divider2"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/tick" />
+                    </LinearLayout>
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.18"
+                        android:gravity="left"
+                        android:text="Gmail Was Updated"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.26"
+                        android:gravity="center"
+                        android:text="18/5/2018"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+
+                    <com.q8safemobile.views.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.26"
+                        android:gravity="center"
+                        android:text="11:03 am"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        app:fontName="Montserrat-Medium.otf" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/divider2"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/apps_list"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

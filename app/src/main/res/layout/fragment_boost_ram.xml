@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CircleProgressView="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center|center_vertical"
+        android:orientation="vertical">
+
+        <at.grabner.circleprogress.CircleProgressView
+            android:id="@+id/circleView"
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            CircleProgressView:cpv_autoTextSize="true"
+            CircleProgressView:cpv_barColor="#0978FE"
+            CircleProgressView:cpv_barWidth="25dp"
+            CircleProgressView:cpv_innerContourSize="0dp"
+            CircleProgressView:cpv_maxValue="100"
+            CircleProgressView:cpv_outerContourSize="0dp"
+            CircleProgressView:cpv_rimColor="#D7E9FF"
+            CircleProgressView:cpv_rimWidth="25dp"
+            CircleProgressView:cpv_seekMode="true"
+            CircleProgressView:cpv_showUnit="true"
+            CircleProgressView:cpv_spinColor="#0978FE"
+            CircleProgressView:cpv_textColor="@color/TextColorBlack"
+            CircleProgressView:cpv_unit="%"
+            CircleProgressView:cpv_unitColor="@color/TextColorBlack"
+            CircleProgressView:cpv_unitPosition="right_top"
+            CircleProgressView:cpv_value="10"
+            CircleProgressView:cpv_textTypeface="Montserrat-Bold.otf"
+            CircleProgressView:cpv_unitTypeface="Montserrat-Bold.otf"
+            CircleProgressView:cpv_textSize="20sp"
+            CircleProgressView:cpv_unitSize="15sp"/>
+
+        <com.q8safemobile.views.TextViewCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Killing All Running Tasks"
+            android:textSize="30sp"
+            android:textColor="@color/TextColorBlack"
+            android:visibility="visible"
+            app:fontName="Montserrat-Bold.otf" />
+
+        <com.q8safemobile.views.TextViewCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:gravity="center"
+            android:text="Q8 safe mobile is stopping all the apps running in the background to boost the speed of phone."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/TextColorBlack"
+            android:visibility="visible"
+            app:fontName="Montserrat-Regular.otf" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gmail"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

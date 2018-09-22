@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CircleProgressView="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#014fbe"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:paddingBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_tick"/>
+
+        <com.q8safemobile.views.TextViewCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="Your Mobile is Safe And Protected"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:visibility="visible"
+            app:fontName="Montserrat-SemiBold.otf"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

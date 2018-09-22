@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CircleProgressView="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center|center_vertical"
+        android:orientation="vertical">
+
+        <cjh.WaveProgressBarlibrary.WaveProgressBar
+            android:id="@+id/waveProgressbar"
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            app:arc_color="@android:color/white"
+            app:cavans_bg="#003BDD"
+            app:progress="30"
+            app:shape="circle"
+            app:text_size="20sp"
+            CircleProgressView:behind_wave_color="#D80001"
+            CircleProgressView:front_wave_color="#D80001"/>
+
+
+        <com.q8safemobile.views.TextViewCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Scanning Mobile"
+            android:textSize="30sp"
+            android:textColor="@color/TextColorBlack"
+            android:visibility="visible"
+            app:fontName="Montserrat-Bold.otf" />
+
+        <com.q8safemobile.views.TextViewCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="Q8 safe mobile is scanning all files."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/TextColorBlack"
+            android:visibility="visible"
+            app:fontName="Montserrat-Regular.otf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/scanningGearImage"
+                android:layout_width="44dp"
+                android:layout_height="41dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/logo_small" />
+
+            <TextView
+                android:id="@+id/scanningFileTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:textColor="@color/TextColorBlack"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

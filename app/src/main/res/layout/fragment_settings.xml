@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.q8safemobile.views.TextViewCustomFont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Settings"
+                android:textColor="@color/TextColorBlack"
+                android:textSize="18sp"
+                android:visibility="visible"
+                app:fontName="Montserrat-Bold.otf" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/divider2"
+                android:layout_marginTop="20dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <com.q8safemobile.views.TextViewCustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:text="Update On WiFi Only"
+                    android:textColor="@color/TextColorBlack"
+                    android:textSize="14sp"
+                    android:visibility="visible"
+                    app:fontName="Montserrat-Medium.otf" />
+
+                <Switch
+                    android:id="@+id/switchUpdateWifi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:checked="true" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/divider2" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_notification"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <com.q8safemobile.views.TextViewCustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:text="Notification"
+                    android:textColor="@color/TextColorBlack"
+                    android:textSize="14sp"
+                    android:visibility="visible"
+                    app:fontName="Montserrat-Medium.otf" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/arrow_menu" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/divider2" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <com.q8safemobile.views.TextViewCustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:text="App Install Shield"
+                    android:textColor="@color/TextColorBlack"
+                    android:textSize="14sp"
+                    android:visibility="visible"
+                    app:fontName="Montserrat-Medium.otf" />
+
+                <Switch
+                    android:id="@+id/switchAppInstall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:checked="true" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/divider2" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <com.q8safemobile.views.TextViewCustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:text="File Shield"
+                    android:textColor="@color/TextColorBlack"
+                    android:textSize="14sp"
+                    android:visibility="visible"
+                    app:fontName="Montserrat-Medium.otf" />
+
+                <Switch
+                    android:id="@+id/switchFileShield"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:checked="true" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/divider2" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <com.q8safemobile.views.TextViewCustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:text="Web Shield"
+                    android:textColor="@color/TextColorBlack"
+                    android:textSize="14sp"
+                    android:visibility="visible"
+                    app:fontName="Montserrat-Medium.otf" />
+
+                <Switch
+                    android:id="@+id/switchWebShield"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:checked="true" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/divider2" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+
+                <com.q8safemobile.views.TextViewCustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:text="Internal Storage Scanning"
+                    android:textColor="@color/TextColorBlack"
+                    android:textSize="14sp"
+                    android:visibility="visible"
+                    app:fontName="Montserrat-Medium.otf" />
+
+                <Switch
+                    android:id="@+id/switchInternal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:checked="true" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/divider2" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <com.q8safemobile.views.TextViewCustomFont
+                    android:id="@+id/textViewCustomFont"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:text="Infected Apps Detection"
+                    android:textColor="@color/TextColorBlack"
+                    android:textSize="14sp"
+                    android:visibility="visible"
+                    app:fontName="Montserrat-Medium.otf" />
+
+                <Switch
+                    android:id="@+id/switchInfected"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:checked="true" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/divider2" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <com.q8safemobile.views.TextViewCustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:text="PUP Detection"
+                    android:textColor="@color/TextColorBlack"
+                    android:textSize="14sp"
+                    android:visibility="visible"
+                    app:fontName="Montserrat-Medium.otf" />
+
+                <Switch
+                    android:id="@+id/switchPup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:checked="true" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/divider2" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <com.q8safemobile.views.TextViewCustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:text="SMS Shield"
+                    android:textColor="@color/TextColorBlack"
+                    android:textSize="14sp"
+                    android:visibility="visible"
+                    app:fontName="Montserrat-Medium.otf" />
+
+                <Switch
+                    android:id="@+id/switchSmsShield"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:checked="true" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/divider2" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <com.q8safemobile.views.TextViewCustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:text="Ask Before Sharing Anything"
+                    android:textColor="@color/TextColorBlack"
+                    android:textSize="14sp"
+                    android:visibility="visible"
+                    app:fontName="Montserrat-Medium.otf" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/divider2" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_update"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <com.q8safemobile.views.TextViewCustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:text="Update App"
+                    android:textColor="@color/TextColorBlack"
+                    android:textSize="14sp"
+                    android:visibility="visible"
+                    app:fontName="Montserrat-Medium.otf" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/arrow_menu" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/divider2" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

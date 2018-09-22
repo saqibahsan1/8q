@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Q8 Safe Mobile</string>
+    <string name="action_settings">Settings</string>
+    <string name="junk_clean">junk clean</string>
+    <string name="process_clean">Process clean</string>
+    <string name="apk_clean">Apk clean</string>
+    <string name="tmp_clean">Clean temp</string>
+    <string name="log_clean">Clean Log</string>
+    <string name="cache_clean">Clean cache</string>
+    <string name="system_cache">System Cache</string>
+    <string name="title_activity_junk_clean">Recommended cleanup</string>
+    <string name="do_junk_clean">Clean Junk</string>
+
+    <string name="byte_short">B</string>
+    <!-- Suffix added to a number to signify size in kilobytes. -->
+    <string name="kilo_byte_short">KB</string>
+    <!-- Suffix added to a number to signify size in megabytes. -->
+    <string name="mega_byte_short">MB</string>
+    <!-- Suffix added to a number to signify size in gigabytes. -->
+    <string name="giga_byte_short">GB</string>
+    <!-- Suffix added to a number to signify size in terabytes. -->
+    <string name="tera_byte_short">TB</string>
+    <!-- Suffix added to a number to signify size in petabytes. -->
+    <string name="peta_byte_short">PB</string>
+
+    <string name="clean_file_size_suffix">%1$s%2$s</string>
+</resources>

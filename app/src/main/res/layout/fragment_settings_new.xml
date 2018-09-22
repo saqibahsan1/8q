@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.q8safemobile.views.TextViewCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:text="Device Security Setting"
+            android:textSize="14sp"
+            android:textColor="@color/TextColorBlack"
+            android:visibility="visible"
+            app:fontName="Montserrat-Medium.otf" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/divider2"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.q8safemobile.views.TextViewCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:text="Screen Lock"
+            android:textSize="14sp"
+            android:textColor="@color/TextColorBlack"
+            android:visibility="visible"
+            app:fontName="Montserrat-Medium.otf" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/divider2"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.q8safemobile.views.TextViewCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:text="Unknown Source"
+            android:textSize="14sp"
+            android:textColor="@color/TextColorBlack"
+            android:visibility="visible"
+            app:fontName="Montserrat-Medium.otf" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/divider2"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.q8safemobile.views.TextViewCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:text="Make Password Visible"
+            android:textSize="14sp"
+            android:textColor="@color/TextColorBlack"
+            android:visibility="visible"
+            app:fontName="Montserrat-Medium.otf" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/divider2"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.q8safemobile.views.TextViewCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:text="Storage Type"
+            android:textSize="14sp"
+            android:textColor="@color/TextColorBlack"
+            android:visibility="visible"
+            app:fontName="Montserrat-Medium.otf" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/divider2"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <com.q8safemobile.views.TextViewCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:text="Device Administration"
+            android:textColor="@color/TextColorBlack"
+            android:textSize="14sp"
+            android:visibility="visible"
+            app:fontName="Montserrat-Medium.otf" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/divider2"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.q8safemobile.views.TextViewCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:text="Trusted Credentials"
+            android:textSize="14sp"
+            android:textColor="@color/TextColorBlack"
+            android:visibility="visible"
+            app:fontName="Montserrat-Medium.otf"
+            android:id="@+id/textViewCustomFont" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/divider2"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.q8safemobile.views.TextViewCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:text="Install From Storage"
+            android:textSize="14sp"
+            android:textColor="@color/TextColorBlack"
+            android:visibility="visible"
+            app:fontName="Montserrat-Medium.otf" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/divider2"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
